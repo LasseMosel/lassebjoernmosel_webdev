@@ -3,7 +3,7 @@ export const HomeObjOne = {
   lightBackground: false,
   lightText: true,
   // lightTextDescription: false,
-  topLine: "Premium Bank",
+  topLine: "about",
   headline: "Unlimited transactions blæa vbla bla",
   description:
     "get acces to something funny bla hej det her er barte unbderligt tissss",
@@ -21,7 +21,7 @@ export const HomeObjTwo = {
   lightBackground: true,
   lightText: false,
   // lightTextDescription: true,
-  topLine: "Super duper things",
+  topLine: "Discover",
   headline: "Whatever you like",
   description:
     "This is a super description of anything i dont know what or how",
@@ -39,7 +39,7 @@ export const HomeObjThree = {
   lightBackground: false,
   lightText: true,
   // lightTextDescription: false,
-  topLine: "Premium Bank",
+  topLine: "Sign Up",
   headline: "Unlimited transactions blæa vbla bla",
   description:
     "get acces to something funny bla hej det her er barte unbderligt tissss",
