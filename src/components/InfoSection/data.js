@@ -1,13 +1,14 @@
 export const HomeObjOne = {
-  id: "about",
+  id: "profile",
   lightBackground: false,
   lightText: true,
   // lightTextDescription: false,
-  topLine: "about",
-  headline: "Unlimited transactions blæa vbla bla",
+  topLine: "Profil",
+  headline: "SOFTWARE INGENIØR",
   description:
-    "get acces to something funny bla hej det her er barte unbderligt tissss",
-  buttonLabel: "lets gooo",
+    "Nuværende job - Frontend udvikler i JYSK. Vha. knappen nedenfor kan man få yderligere information omkring interesser og mål.",
+  buttonLabel: "Mere information",
+  buttonLabelGotoHome: "Forside",
   imgStart: false,
   img: require("../../images/svg-2.svg").default,
   alt: "Phone",
@@ -17,15 +18,21 @@ export const HomeObjOne = {
 };
 
 export const HomeObjTwo = {
-  id: "discover",
+  id: "cv",
   lightBackground: true,
   lightText: false,
   // lightTextDescription: true,
-  topLine: "Discover",
-  headline: "Whatever you like",
+  topLine: "CV",
+  headline: "Erfaring - Udannelse - Kompetencer",
+  description0: "JYSK - Frontend udvikler - Marts 2022 - nu",
   description:
-    "This is a super description of anything i dont know what or how",
+    "Danske Bank - Full stack Software Developer - August 2020 - Marts 2022 ",
+  description1:
+    "Dansk Computer Center - Software/Hardware tester - August 2016 - August 2018",
+  description2:
+    "Tandlægerne Kejlstrupvej - Computer supporter + kontor assistent. - Januar 2015 - Juni 2022 ",
   buttonLabel: "Learn more",
+  buttonLabelGotoHome: "Forside",
   imgStart: true,
   img: require("../../images/svg-1.svg").default,
   alt: "Pcman",
@@ -35,15 +42,19 @@ export const HomeObjTwo = {
 };
 
 export const HomeObjThree = {
-  id: "signup",
+  id: "contact",
   lightBackground: false,
   lightText: true,
   // lightTextDescription: false,
-  topLine: "Sign Up",
-  headline: "Unlimited transactions blæa vbla bla",
-  description:
-    "get acces to something funny bla hej det her er barte unbderligt tissss",
-  buttonLabel: "Start now",
+  topLine: "Kontakt",
+  headline: "Kontakt information og social medie sider",
+  description0: "Mobil - 29217899",
+  description: "Email - lassebjoernmosel@gmail.com",
+  description1: "Adresse - Bogensegade 1, 1.th",
+  description2:
+    "Links til social medie sider kan findes vha. mere information knappen",
+  buttonLabel: "Mere information",
+  buttonLabelGotoHome: "Forside",
   imgStart: false,
   img: require("../../images/svg-2.svg").default,
   alt: "Paper",

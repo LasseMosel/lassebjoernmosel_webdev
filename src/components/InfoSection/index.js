@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+import { ButtonLink, ButtonScroll } from "../ButtonElements";
 import {
   Column2,
   ImgWrap,
@@ -13,6 +13,7 @@ import {
   Subtitle,
   BtnWrap,
   Img,
+  HorizontalDivider,
 } from "./InfoElements";
 
 const InfoSection = ({
@@ -24,7 +25,11 @@ const InfoSection = ({
   headline,
   darkText,
   description,
+  description0,
+  description1,
+  description2,
   buttonLabel,
+  buttonLabelGotoHome,
   img,
   alt,
   primary,
@@ -40,10 +45,13 @@ const InfoSection = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
+                <Subtitle darkText={darkText}>{description0}</Subtitle>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>{description1}</Subtitle>
+                <Subtitle darkText={darkText}>{description2}</Subtitle>
                 <BtnWrap>
-                  <Button
-                    to="home"
+                  <ButtonLink
+                    to="/profilepage"
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -54,7 +62,21 @@ const InfoSection = ({
                     dark2={dark2 ? 1 : 0}
                   >
                     {buttonLabel}
-                  </Button>
+                  </ButtonLink>
+                  <HorizontalDivider />
+                  <ButtonScroll
+                    to="home"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact={true}
+                    offset={-80}
+                    primary={primary ? 1 : 0}
+                    dark={dark ? 1 : 0}
+                    dark2={dark2 ? 1 : 0}
+                  >
+                    {buttonLabelGotoHome}
+                  </ButtonScroll>
                 </BtnWrap>
               </TextWrapper>
             </Column1>

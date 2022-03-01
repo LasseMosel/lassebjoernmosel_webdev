@@ -1,11 +1,23 @@
 import styled from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
-import { Link as LinkScroller } from "react-scroll";
+
+export const PageContainer = styled.div`
+  background: #0c0c0c;
+  width: 100%;
+  height: max-content;
+`;
+
+export const ContainerNavbar = styled.div`
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+`;
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
   height: 80px;
-  margin-top: -80px;
+  /* margin-top: -80px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,12 +39,13 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1100px;
+  max-width: 1600px;
+  background: #000;
 `;
 
 export const NavLogo = styled(LinkRouter)`
   color: #fff;
-  justify-self: flex-start;
+  justify-self: flex-end;
   cursor: pointer;
   font-size: 1.5rem;
   display: flex;
@@ -42,60 +55,13 @@ export const NavLogo = styled(LinkRouter)`
   text-decoration: none;
 `;
 
-export const MobileIcon = styled.div`
-  display: none;
-
-  @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    cursor: pointer;
-    color: #fff;
-  }
-`;
-
-export const NavMenu = styled.ul`
-  display: flex;
-  align-items: center;
-  list-style: none;
-  text-align: center;
-  //-22px to center, because there is already some styling pushing it a bit
-  margin-right: -22px;
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
-
-export const NavItem = styled.li`
-  height: 80px;
-`;
-
-export const NavLinks = styled(LinkScroller)`
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
-  cursor: pointer;
-
-  //highlights the tab you click on
-  &:active {
-    border-bottom: 3px solid #01bf71;
-  }
-`;
-
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     display: none;
-  }
+  } */
 `;
 
 export const NavBtnLink = styled(LinkRouter)`
@@ -116,4 +82,31 @@ export const NavBtnLink = styled(LinkRouter)`
     background: #fff;
     color: #010606;
   }
+`;
+
+export const ImgContainer = styled.div`
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+`;
+
+export const ProfileContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+`;
+
+export const NameHeader = styled.div`
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+  padding: 15px;
+`;
+
+export const JobTitle = styled.div`
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+  padding: 15px;
 `;

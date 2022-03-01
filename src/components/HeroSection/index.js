@@ -20,15 +20,15 @@ const HeroSection = () => {
     setHover(!hover);
   };
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
       <HeroBackground>
         <VideoBackground autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBackground>
       <HeroContent>
-        <HeroH1>Banking made Easy</HeroH1>
+        <HeroH1>Lasse Bjørn Mosel</HeroH1>
         <HeroP>
-          Sign Up for a new accont for today, and bkælsdkaælksæl akdælkasælkd
-          æalksdælka
+          Online CV - Der skal fungere som en præsentation af nuværende
+          kompetencer, samt fremvisning af tidligere erfaring.
         </HeroP>
         <HeroBtnWrapper>
           <Button
@@ -37,6 +37,11 @@ const HeroSection = () => {
             onMouseLeave={onHover}
             primary="true"
             dark="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
           >
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
