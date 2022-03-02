@@ -14,10 +14,35 @@ import {
 } from "./ProfileElements";
 import FlipCard from "../FlipCard";
 import { ProfileObjOne } from "../FlipCard/data";
-import { HomeObjOne } from "./data";
-import InfoSection from "../InfoSection";
+import {
+  Column2,
+  ImgWrap,
+  InfoContainer,
+  InfoWrapper,
+  InfoRow,
+  Column1,
+  TextWrapper,
+  TopLine,
+  Heading,
+  Subtitle,
+  Img,
+} from "../InfoSection/InfoElements";
 
-const Profilep = ({ toggle }) => {
+const Profilep = ({
+  lightBackground,
+  id,
+  imgStart,
+  topLine,
+  lightText,
+  headline,
+  darkText,
+  description,
+  description0,
+  description1,
+  description2,
+  img,
+  alt,
+}) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
@@ -51,6 +76,27 @@ const Profilep = ({ toggle }) => {
         <JobTitle>Frontend udvikler - JYSK</JobTitle>
       </ProfileContainer>
       {/* <InfoSection {...HomeObjOne} /> */}
+      <InfoContainer lightBackground={lightBackground} id={id}>
+        <InfoWrapper>
+          <InfoRow imgStart={imgStart}>
+            <Column1>
+              <TextWrapper>
+                <TopLine>{topLine}</TopLine>
+                <Heading lightText={lightText}>{headline}</Heading>
+                <Subtitle darkText={darkText}>{description0}</Subtitle>
+                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>{description1}</Subtitle>
+                <Subtitle darkText={darkText}>{description2}</Subtitle>
+              </TextWrapper>
+            </Column1>
+            <Column2>
+              <ImgWrap>
+                <Img src={img} alt={alt} />
+              </ImgWrap>
+            </Column2>
+          </InfoRow>
+        </InfoWrapper>
+      </InfoContainer>
     </PageContainer>
   );
 };

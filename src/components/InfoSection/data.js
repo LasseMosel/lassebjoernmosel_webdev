@@ -31,7 +31,7 @@ export const HomeObjTwo = {
     "Dansk Computer Center - Software/Hardware tester - August 2016 - August 2018",
   description2:
     "Tandlægerne Kejlstrupvej - Computer supporter + kontor assistent. - Januar 2015 - Juni 2022 ",
-  buttonLabel: "Learn more",
+  buttonLabel: "Mere information",
   buttonLabelGotoHome: "Forside",
   imgStart: true,
   img: require("../../images/svg-1.svg").default,

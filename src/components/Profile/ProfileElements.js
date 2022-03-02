@@ -2,7 +2,9 @@ import styled from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
 
 export const PageContainer = styled.div`
-  background: #0c0c0c;
+  /* background: #0c0c0c; */
+  background: #010606;
+
   width: 100%;
   height: max-content;
 `;
@@ -43,10 +45,9 @@ export const NavbarContainer = styled.div`
   background: #000;
 `;
 
-export const NavLogo = styled(LinkRouter)`
+export const NavLogo = styled.div`
   color: #fff;
   justify-self: flex-end;
-  cursor: pointer;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
