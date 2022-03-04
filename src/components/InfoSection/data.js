@@ -2,6 +2,7 @@ export const HomeObjOne = {
   id: "profile",
   lightBackground: false,
   lightText: true,
+  to: "/profilepage",
   // lightTextDescription: false,
   topLine: "Profil",
   headline: "SOFTWARE INGENIØR",

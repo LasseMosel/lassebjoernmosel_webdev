@@ -16,7 +16,7 @@ import {
   HorizontalDivider,
 } from "./InfoElements";
 
-const InfoSection = ({
+const ContactSection = ({
   lightBackground,
   id,
   imgStart,
@@ -28,6 +28,7 @@ const InfoSection = ({
   description0,
   description1,
   description2,
+  to,
   buttonLabel,
   buttonLabelGotoHome,
   img,
@@ -51,7 +52,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description2}</Subtitle>
                 <BtnWrap>
                   <ButtonLink
-                    to="/profilepage"
+                    to="/contact"
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -92,4 +93,4 @@ const InfoSection = ({
   );
 };
 
-export default InfoSection;
+export default ContactSection;

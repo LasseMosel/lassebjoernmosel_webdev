@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
   background: #fff;
-  width: 150px;
+  width: 160px;
+  height: 200px;
   box-shadow: 0 0 15px 0;
   margin-top: 30px;
   overflow: hidden;

@@ -11,22 +11,23 @@ import {
   JobTitle,
   ProfileContainer,
   ImgContainer,
-} from "./ProfileElements";
+} from "./CVElements.js";
 import FlipCard from "../FlipCard";
 import { ProfileObjOne } from "../FlipCard/data";
-import {
-  Column2,
-  ImgWrap,
-  InfoContainer,
-  InfoWrapper,
-  InfoRow,
-  Column1,
-  TextWrapper,
-  TopLine,
-  Heading,
-  Subtitle,
-  Img,
-} from "../InfoSection/InfoElements";
+// import {
+//   Column2,
+//   ImgWrap,
+//   InfoContainer,
+//   InfoWrapper,
+//   InfoRow,
+//   Column1,
+//   TextWrapper,
+//   TopLine,
+//   Heading,
+//   Subtitle,
+//   Img,
+// } from "../InfoSection/InfoElements";
+import Timeline from "../Timeline";
 
 const Profilepage = ({
   lightBackground,
@@ -61,21 +62,21 @@ const Profilepage = ({
       <Nav scrollNav={scrollNav}>
         <ContainerNavbar>
           <NavbarContainer>
-            <NavLogo>Profil</NavLogo>
+            <NavLogo>CV</NavLogo>
             <NavBtn>
               <NavBtnLink to="/">Tilbage</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </ContainerNavbar>
       </Nav>
-      <ImgContainer>
+      {/* <ImgContainer>
         <FlipCard {...ProfileObjOne} />
       </ImgContainer>
       <ProfileContainer>
         <NameHeader>Lasse Bjørn Mosel</NameHeader>
         <JobTitle>Frontend udvikler - JYSK</JobTitle>
-      </ProfileContainer>
-      <InfoContainer lightBackground={lightBackground} id={id}>
+      </ProfileContainer> */}
+      {/* <InfoContainer lightBackground={lightBackground} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>
@@ -95,7 +96,8 @@ const Profilepage = ({
             </Column2>
           </InfoRow>
         </InfoWrapper>
-      </InfoContainer>
+      </InfoContainer> */}
+      <Timeline></Timeline>
     </PageContainer>
   );
 };
