@@ -7,18 +7,22 @@ import {
   Nav,
   ContainerNavbar,
   PageContainer,
-  NameHeader,
-  JobTitle,
-  ProfileContainer,
-  ImgContainer,
   SocialMedia,
   SocialIconLink,
   SocialIcons,
-  SocialLogo,
   SocialMediaWrap,
-  WebsiteRights,
+  InfoContainer,
+  InfoWrapper,
+  InfoRow,
+  Column1,
+  Column2,
+  TextWrapper,
+  TopLine,
+  Heading,
+  Subtitle,
+  ImgWrap,
+  Img,
 } from "./ContactElements";
-import { animateScroll as scroll } from "react-scroll";
 import {
   FaFacebook,
   FaInstagram,
@@ -26,10 +30,22 @@ import {
   FaYoutube,
   FaTwitter,
 } from "react-icons/fa";
-import ContactSection from "../InfoSection/contactSection";
-import { HomeObjThree } from "./data";
 
-const ContactPage = () => {
+const ContactPage = ({
+  lightBackground,
+  id,
+  imgStart,
+  lightText,
+  darkText,
+  headline,
+  topLine,
+  description,
+  description0,
+  description1,
+  description2,
+  img,
+  alt,
+}) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
@@ -38,10 +54,6 @@ const ContactPage = () => {
     } else {
       setScrollNav(false);
     }
-  };
-
-  const toggleHome = () => {
-    scroll.scrollToTop();
   };
 
   useEffect(() => {
@@ -59,8 +71,27 @@ const ContactPage = () => {
           </NavbarContainer>
         </ContainerNavbar>
       </Nav>
-
-      <ContactSection {...HomeObjThree}></ContactSection>
+      <InfoContainer lightBackground={lightBackground} id={id}>
+        <InfoWrapper>
+          <InfoRow imgStart={imgStart}>
+            <Column1>
+              <TextWrapper>
+                <TopLine>{topLine}</TopLine>
+                <Heading lightText={lightText}>{headline}</Heading>
+                <Subtitle darkText={darkText}>{description0}</Subtitle>
+                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>{description1}</Subtitle>
+                <Subtitle darkText={darkText}>{description2}</Subtitle>
+              </TextWrapper>
+            </Column1>
+            <Column2>
+              <ImgWrap>
+                <Img src={img} alt={alt} />
+              </ImgWrap>
+            </Column2>
+          </InfoRow>
+        </InfoWrapper>
+      </InfoContainer>
 
       <SocialMedia>
         <SocialMediaWrap>

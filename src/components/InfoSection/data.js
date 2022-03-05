@@ -24,7 +24,7 @@ export const HomeObjTwo = {
   lightText: false,
   // lightTextDescription: true,
   topLine: "CV",
-  headline: "Erfaring - Udannelse - Kompetencer",
+  headline: "Erfaring - Udannelse",
   description0: "JYSK - Frontend udvikler - Marts 2022 - nu",
   description:
     "Danske Bank - Full stack Software Developer - August 2020 - Marts 2022 ",
@@ -59,7 +59,7 @@ export const HomeObjThree = {
   imgStart: false,
   img: require("../../images/svg-2.svg").default,
   alt: "Paper",
-  dark: false,
+  dark: true,
   primary: true,
   darkText: false,
 };

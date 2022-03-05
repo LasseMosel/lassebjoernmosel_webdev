@@ -25,7 +25,7 @@ let timelineElements = [
     location: "Dansk Computer Center (DCC), Søften",
     description:
       "Arbejdet bestod i at klargøre maskiner, herunder lave forskellige software og hardware tests. Herunder opdatering af firmware, samt konfiguration af hardware og overordnet produktkontrol.",
-    buttonText: "Se anbefaling",
+    buttonText: "",
     date: "August 2016 - August 2018",
     icon: "work",
   },
@@ -35,7 +35,7 @@ let timelineElements = [
     location: "Tandlægeklinikken Kejlstrupvej, Silkeborg",
     description:
       "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-    buttonText: "Se anbefaling",
+    buttonText: "",
     date: "Januar 2015 - Juni 2022",
     icon: "work",
   },

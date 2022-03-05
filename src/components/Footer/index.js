@@ -35,20 +35,20 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-              <FooterLink to="/signIn">How it works </FooterLink>
-              <FooterLink to="/signIn">Testi </FooterLink>
-              <FooterLink to="/signIn">Carrerer</FooterLink>
-              <FooterLink to="/signIn">Investment </FooterLink>
-              <FooterLink to="/signIn">services </FooterLink>
+              <FooterLinkTitle>Nyttige links</FooterLinkTitle>
+              <FooterLink to="/">Hjem </FooterLink>
+              <FooterLink to="/profile">Profil </FooterLink>
+              <FooterLink to="/cv">CV</FooterLink>
+              <FooterLink to="/Kontakt">Kontakt </FooterLink>
+              <FooterLink to="/signIn">Sign In </FooterLink>
               <FooterLinkA
                 href="https://www.instagram.com/lasse.mosel/"
                 target="_blank"
               >
-                SUPER DUPER LINK
+                LasseMosel instagram
               </FooterLinkA>
             </FooterLinkItems>
-            <FooterLinkItems>
+            {/* <FooterLinkItems>
               <FooterLinkTitle>About us</FooterLinkTitle>
               <FooterLink to="/signIn">How it works </FooterLink>
               <FooterLink to="/signIn">Testi </FooterLink>
@@ -73,7 +73,7 @@ const Footer = () => {
               <FooterLink to="/signIn">Carrerer</FooterLink>
               <FooterLink to="/signIn">Investment </FooterLink>
               <FooterLink to="/signIn">services </FooterLink>
-            </FooterLinkItems>
+            </FooterLinkItems> */}
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
