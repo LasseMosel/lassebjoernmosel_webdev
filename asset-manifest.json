@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lassebjoernmosel_webdev/static/css/main.456ca195.css",
-    "main.js": "/lassebjoernmosel_webdev/static/js/main.7734c992.js",
+    "main.js": "/lassebjoernmosel_webdev/static/js/main.2ab10d4a.js",
     "static/media/video.mp4": "/lassebjoernmosel_webdev/static/media/video.7d1ea6a94986d5c2a068.mp4",
     "static/media/CV_billedepng.png": "/lassebjoernmosel_webdev/static/media/CV_billedepng.b5f63499ec678b626cf0.png",
     "static/media/svg-3.svg": "/lassebjoernmosel_webdev/static/media/svg-3.ba14224eccaac8753c02d29111dcfbe5.svg",
@@ -13,10 +13,10 @@
     "static/media/svg-8.svg": "/lassebjoernmosel_webdev/static/media/svg-8.8fb2aedd3c4747e6c8e40d0d2ccc8a87.svg",
     "index.html": "/lassebjoernmosel_webdev/index.html",
     "main.456ca195.css.map": "/lassebjoernmosel_webdev/static/css/main.456ca195.css.map",
-    "main.7734c992.js.map": "/lassebjoernmosel_webdev/static/js/main.7734c992.js.map"
+    "main.2ab10d4a.js.map": "/lassebjoernmosel_webdev/static/js/main.2ab10d4a.js.map"
   },
   "entrypoints": [
     "static/css/main.456ca195.css",
-    "static/js/main.7734c992.js"
+    "static/js/main.2ab10d4a.js"
   ]
 }
