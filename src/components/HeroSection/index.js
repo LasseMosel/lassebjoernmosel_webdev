@@ -25,7 +25,7 @@ const HeroSection = () => {
         <VideoBackground autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBackground>
       <HeroContent>
-        <HeroH1>Lasse Bjørn Mosel</HeroH1>
+        <HeroH1>Lasse Sebastain Bjørn Mosel</HeroH1>
         <HeroP>
           Online CV - Der skal fungere som en præsentation af nuværende
           kompetencer, samt fremvisning af tidligere erfaring.
