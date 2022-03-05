@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lassebjoernmosel_webdev/static/css/main.456ca195.css",
+    "main.js": "/lassebjoernmosel_webdev/static/js/main.7734c992.js",
+    "static/media/video.mp4": "/lassebjoernmosel_webdev/static/media/video.7d1ea6a94986d5c2a068.mp4",
+    "static/media/CV_billedepng.png": "/lassebjoernmosel_webdev/static/media/CV_billedepng.b5f63499ec678b626cf0.png",
+    "static/media/svg-3.svg": "/lassebjoernmosel_webdev/static/media/svg-3.ba14224eccaac8753c02d29111dcfbe5.svg",
+    "static/media/svg-7.svg": "/lassebjoernmosel_webdev/static/media/svg-7.f39cddb78620c344be4266fd60cae829.svg",
+    "static/media/DanskeBank.png": "/lassebjoernmosel_webdev/static/media/DanskeBank.c495da06da9ea1f995a3.png",
+    "static/media/svg-1.svg": "/lassebjoernmosel_webdev/static/media/svg-1.9867e30762f0a261bb2ebc3a056fd89d.svg",
+    "static/media/svg-9.svg": "/lassebjoernmosel_webdev/static/media/svg-9.f122a37dee3a963d3a56eaa72485334f.svg",
+    "static/media/svg-2.svg": "/lassebjoernmosel_webdev/static/media/svg-2.dade2f9dd346871fc614243eb5f1448f.svg",
+    "static/media/svg-8.svg": "/lassebjoernmosel_webdev/static/media/svg-8.8fb2aedd3c4747e6c8e40d0d2ccc8a87.svg",
+    "index.html": "/lassebjoernmosel_webdev/index.html",
+    "main.456ca195.css.map": "/lassebjoernmosel_webdev/static/css/main.456ca195.css.map",
+    "main.7734c992.js.map": "/lassebjoernmosel_webdev/static/js/main.7734c992.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.456ca195.css",
+    "static/js/main.7734c992.js"
+  ]
+}
